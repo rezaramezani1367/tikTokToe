@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .box{
+    @apply w-full h-full border flex justify-center 
+    items-center font-bold hover:bg-slate-200 hover:cursor-pointer transition-all duration-100
+}
+ 
